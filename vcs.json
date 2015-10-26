@@ -1,6 +1,6 @@
 {
   "vcs" : {
-    "min.supported.version" : "300",
+    "min.supported.version" : "200",
     "blocking.messages" : {
 		"en" : "This version of application is not supported anymore",
 		"ru" : "Эта версия приложения больше не поддерживается"
