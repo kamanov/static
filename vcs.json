@@ -1,15 +1,24 @@
 {
-  "vcs" : {
-    "min.supported.version" : "300",
-    "blocking.messages" : {
-		"en" : "This version of application is not supported anymore",
-		"ru" : "Эта версия приложения больше не поддерживается"
+  "updatePeriod" : 86400,
+  "ads" : {
+    "location" : {
+	"inbox" : {
+		"0" : {
+			"blockID" : "R-IM-132498-4"
+		},
+		"2" : {
+			"blockID" : "R-IM-132498-6"
+		}
+	},
+	"folderlist" : {
+		"1" : {
+			"blockID" : "R-IM-132498-5"
+		},
+		"2" : {
+			"blockID" : "R-IM-132498-7"
+		}
+	}
     },
-    "latest.version" : "304",
-    "info.messages" : {
-		"en" : "Please download the latest version of Yandex.Mail from the AppStore",
-		"ru" : "Загрузите пожалуйста свежую версию приложения из AppStore"
-    },
-    "html.template" : "<head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;'/></head><body><br><center><img src='%IMAGE_URL%' width='200'></img></center><br><center style='font-size:120%'>%TEXT%</center></body>"
+    "inboxPosition" : 3
   }
 }
