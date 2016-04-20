@@ -1,24 +1,159 @@
 {
-  "updatePeriod" : 86400,
-  "ads" : {
-    "location" : {
-	"inbox" : {
-		"0" : {
-			"blockID" : "intmobtest75-b-1"
+	"updatePeriod": 86400,
+	"ads": {
+		"location": {
+			"inbox": {
+				"0": {
+					"blockID": "R-IM-132498-4",
+					"inboxType": 1
+				},
+				"2": {
+					"blockID": "R-IM-132498-6",
+					"inboxType": 1
+				},
+				"3": {
+					"blockID": "R-IM-132498-8",
+					"inboxType": 2
+				},
+				"4": {
+					"blockID": "R-IM-132498-9",
+					"inboxType": 3
+				},
+				"5": {
+					"blockID": "R-IM-132498-10",
+					"inboxType": 1
+				}
+			},
+			"folderlist": {
+				"2": {
+					"blockID": "R-IM-132498-7"
+				}
+			}
 		},
-		"2" : {
-			"blockID" : "intmobtest43-n-1"
-		}
+		"inboxPosition": 7
 	},
-	"folderlist" : {
-		"1" : {
-			"blockID" : "nanpu321-1"
-		},
-		"2" : {
-			"blockID" : "intmobtest43-n-1"
+	"brandThemes": [
+		{
+			"name": "newyear2016",
+			"begin": "20-12-2015",
+			"end": "14-01-2016"
 		}
+	],
+	"support": {
+		"problems": [
+			{
+				"title": {
+					"ru": "РќРµ Р·Р°РіСЂСѓР¶Р°СЋС‚СЃСЏ РїРёСЃСЊРјР°",
+					"en": "Messages do not load",
+					"uk": "РќРµ Р·Р°РІР°РЅС‚Р°Р¶СѓСЋС‚СЊСЃСЏ Р»РёСЃС‚Рё",
+					"tr": "E-postalar yГјklenemiyor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "РќРµС‚ СѓРІРµРґРѕРјР»РµРЅРёР№",
+					"en": "No notifications",
+					"uk": "РќРµРјР°С” СЃРїРѕРІС–С‰РµРЅСЊ",
+					"tr": "Bildirim yok"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "Р Р°Р±РѕС‚Р°РµС‚ РјРµРґР»РµРЅРЅРѕ",
+					"en": "Works slowly",
+					"uk": "РџСЂР°С†СЋС” РїРѕРІС–Р»СЊРЅРѕ",
+					"tr": "YavaЕџ Г§alД±ЕџД±yor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "РќРµ РѕС‚РїСЂР°РІР»СЏРµС‚ РїРёСЃСЊРјР°",
+					"en": "Messages won't send",
+					"uk": "РќРµ РЅР°РґСЃРёР»Р°С” Р»РёСЃС‚Рё",
+					"tr": "E-postalar gГ¶nderilmiyor"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			},
+			{
+				"title": {
+					"ru": "РџСЂРёР»РѕР¶РµРЅРёРµ РІС‹Р»РµС‚Р°РµС‚",
+					"en": "Crashes",
+					"uk": "РџСЂРёРїРёРЅСЏС” СЂРѕР±РѕС‚Сѓ",
+					"tr": "Aniden kapanД±yor"
+				},
+				"showConnectionType": false,
+				"showAnswerRequired": false,
+				"showAttachmentButton": false
+			},
+			{
+				"title": {
+					"ru": "Р’ СЃРїРёСЃРєРµ РЅРµС‚ РјРѕРµР№ РїСЂРѕР±Р»РµРјС‹",
+					"en": "My problem is not in the list",
+					"uk": "РЈ СЃРїРёСЃРєСѓ РЅРµРјР°С” РјРѕС”С— РїСЂРѕР±Р»РµРјРё",
+					"tr": "YaЕџadД±ДџД±m sorun listede yok"
+				},
+				"showConnectionType": true,
+				"showAnswerRequired": true,
+				"showAttachmentButton": true
+			}
+		],
+		"suggestions": [
+			{
+				"title": {
+					"ru": "РђРєРєР°СѓРЅС‚ РґСЂСѓРіРёС… СЃРµСЂРІРёСЃРѕРІ",
+					"en": "Account on a different service",
+					"uk": "РђРєР°СѓРЅС‚ С–РЅС€РёС… СЃРµСЂРІС–СЃС–РІ",
+					"tr": "DiДџer servislerin hesabД±"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "РЎРѕС…СЂР°РЅРµРЅРёРµ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёСЏ РїСЂРё РїРµСЂРµСЃС‹Р»РєРµ",
+					"en": "Maintain formatting when forwarding",
+					"uk": "Р—Р±РµСЂРµР¶РµРЅРЅСЏ С„РѕСЂРјР°С‚СѓРІР°РЅРЅСЏ Сѓ СЂР°Р·С– РїРµСЂРµСЃРёР»Р°РЅРЅСЏ",
+					"tr": "YГ¶nlendirmede biГ§imlemenin kaydedilmesi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "РР·РјРµРЅРµРЅРёРµ Р°РІР°С‚Р°СЂРєРё",
+					"en": "Change avatar",
+					"uk": "Р—РјС–РЅР° Р°РІР°С‚Р°СЂРєРё",
+					"tr": "Avatar gГ¶rselinin deДџiЕџimi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "Р’С‹Р±РѕСЂ Р·РІСѓРєР° СѓРІРµРґРѕРјР»РµРЅРёСЏ",
+					"en": "Choose notification sound",
+					"uk": "Р’РёР±С–СЂ Р·РІСѓРєСѓ СЃРїРѕРІС–С‰РµРЅРЅСЏ",
+					"tr": "Bildirim sesinin seГ§imi"
+				},
+				"showDetailedRequest": false
+			},
+			{
+				"title": {
+					"ru": "Р’ СЃРїРёСЃРєРµ РЅРµС‚ РјРѕРµРіРѕ РїСЂРµРґР»РѕР¶РµРЅРёСЏ",
+					"en": "My suggestion is not in the list",
+					"uk": "РЈ СЃРїРёСЃРєСѓ РЅРµРјР°С” РјРѕС”С— РїСЂРѕРїРѕР·РёС†С–С—",
+					"tr": "Г–nerim listede yok"
+				},
+				"showDetailedRequest": true
+			}
+		]
 	}
-    },
-    "inboxPosition" : 3
-  }
 }
